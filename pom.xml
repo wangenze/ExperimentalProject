@@ -49,6 +49,7 @@
             <groupId>org.processing</groupId>
             <artifactId>core</artifactId>
             <version>3.3.7</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -59,7 +60,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.wez.processing.Main</mainClass>
+                            <mainClass>com.wez.experimental.TreedomClient</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
