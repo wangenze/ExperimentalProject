@@ -59,11 +59,11 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.wez.experimental.TreedomClient</mainClass>
+                            <mainClass>com.wez.processing.Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
-                        <descriptorRef>full</descriptorRef>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
                 </configuration>
                 <executions>
