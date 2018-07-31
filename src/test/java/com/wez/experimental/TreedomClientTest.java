@@ -6,7 +6,17 @@ public class TreedomClientTest {
 
     @Ignore
     public void upload() {
-        TreedomResponse response = new TreedomClient().upload("/Users/enzewang/Downloads/endurance.jpg");
+        TreedomUploadResponse response = new TreedomClient().upload("/Users/enzewang/Downloads/1.jpg");
+        System.out.println(response);
+    }
+
+    @Ignore
+    public void uploads() {
+        TreedomUploadsResponse response = new TreedomClient().uploads(
+                "/Users/enzewang/Downloads/1.jpg",
+                "/Users/enzewang/Downloads/1.jpg",
+                "/Users/enzewang/Downloads/1.jpg",
+                "/Users/enzewang/Downloads/1.jpg");
         System.out.println(response);
     }
 }

@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class TreedomResponse {
+public class TreedomUploadsResponse {
     private Long code;
     private String data;
     private String msg;
